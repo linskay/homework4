@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Привет, наставник!:)");
+        System.out.println("Привет, наставник!:)");
         System.out.println("Задание 1");
         int age = 22;
         {
-            System.out.println("Если возрат человека равен " + age);
+            System.out.println("Если возраст человека равен " + age);
         }
         if (age >= 18) {
             System.out.println("он совершеннолетний");
@@ -12,8 +12,8 @@ public class Main {
             System.out.println("он не достиг совершеннолетия, нужно немного подождать");
         }
         System.out.println("Задание 2");
-        int temperatura = -10;
-        if (temperatura < 5) {
+        int temperature = -10;
+        if (temperature < 5) {
             System.out.println("На улице холодно, нужно надеть шапку");
         } else {
             System.out.println("Сегодня тепло, можно идти без шапки");
@@ -79,7 +79,7 @@ public class Main {
         int three = 3;
         if (one > two && one > three) {
             System.out.println( "Самое большое число " + one);
-        } else if (two > one && one > three) {
+        } else if (two > one && two > three) {
             System.out.println("Самое большое число " + two);
         } else {
             System.out.println( "Самое большое число " + three);
